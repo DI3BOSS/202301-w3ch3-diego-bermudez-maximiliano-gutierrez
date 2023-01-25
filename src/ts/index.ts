@@ -1,3 +1,4 @@
-import series from "./series/series";
+import Component from "./components/Component";
 
-console.table(series);
+const header = new Component("main-content__title", document.body, "h2");
+
