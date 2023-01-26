@@ -1,4 +1,5 @@
 import Component from "./components/Component";
+import MainSectionComponent from "./components/MainSectionComponent/MainSectionComponent";
 
-const header = new Component("main-content__title", document.body, "h2");
-
+const mainContent = new MainSectionComponent("main-content");
+mainContent.render();
